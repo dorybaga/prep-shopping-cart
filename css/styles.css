@@ -4,6 +4,7 @@ body {
 }
 
 h1{
+	font-size: 50px;
 	font-weight: bold;
 
 }
@@ -17,4 +18,10 @@ h1{
 
 .cost {
 	text-align: right;
+}
+
+.subtotalContainer {
+	text-align: right;
+	font-size: 30px;
+	font-weight: 900;
 }
