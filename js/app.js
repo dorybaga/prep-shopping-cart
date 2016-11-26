@@ -51,6 +51,14 @@ totalPrice(vendor);
 console.log(totalPrice(vendor));
 
 
+var subtotalBox = document.createElement("div");
+subtotalBox.className = "subtotalContainer";
+main.appendChild(subtotalBox);
+
+var subtotal = document.createElement("div");
+subtotal.className = "cartTotal";
+subtotalBox.innerHTML = totalPrice(vendor);
+
 
 };
 
