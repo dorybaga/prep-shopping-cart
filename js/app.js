@@ -37,16 +37,19 @@ productPrice.className = "cost";
 productPrice.innerHTML = vendor[i].price;
 itemBox.appendChild(productPrice);
 
-
 }
 
-function totalPrice (){
-	for (var i =0; i<vendor.length;i++){
-		vendor
-	}
-
+function totalPrice (num){
+	var myPrice = 0;
+	for (var k =0; k<num.length;k++){
+		myPrice += num[k].price;
+}
+	return myPrice;
 
 }
+totalPrice(vendor);
+console.log(totalPrice(vendor));
+
 
 
 };
